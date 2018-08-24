@@ -1,5 +1,19 @@
 # Detectron
 
+    Detectron是Facebook AI研究院(FAIR)于2018年初公开的目前为止业内最佳水平的目标检测平台。
+    据介绍，该项目自 2016 年 7 月启动，构建于 Caffe2 之上，目前支持大量机器学习算法，
+    其中包括 Mask R-CNN（何恺明的研究，ICCV 2017 最佳论文）和 Focal Loss for Dense Object Detection，
+    （ICCV 2017 最佳学生论文）。Facebook 称，该工具包已被应用与公司内部很多团队应用于各类应用中，
+    一旦训练完成，这些计算机视觉模型可被部署在云端或移动设备上。 
+    该工具的开源对于研究目标检测的朋友来说有极大的帮助，
+    可以帮助他们利用最先进的深度学习目标检测技术快速构建自己的模型和应用，
+    也可在其上开展进一步的研究，无论从工程上还是从学术研究上都有较大的参考价值。
+    由于本人目前的课题方向也是目标检测，因此准备好好研读一番Detectron的源码，
+    记录下自己的一些理解和体会，也希望能与志同道合的朋友一起交流探讨。
+
+[参考](https://blog.csdn.net/blateyang/article/details/79330548)
+
+
 Detectron is Facebook AI Research's software system that implements state-of-the-art object detection algorithms, including [Mask R-CNN](https://arxiv.org/abs/1703.06870). It is written in Python and powered by the [Caffe2](https://github.com/caffe2/caffe2) deep learning framework.
 
 At FAIR, Detectron has enabled numerous research projects, including: [Feature Pyramid Networks for Object Detection](https://arxiv.org/abs/1612.03144), [Mask R-CNN](https://arxiv.org/abs/1703.06870), [Detecting and Recognizing Human-Object Interactions](https://arxiv.org/abs/1704.07333), [Focal Loss for Dense Object Detection](https://arxiv.org/abs/1708.02002), [Non-local Neural Networks](https://arxiv.org/abs/1711.07971), [Learning to Segment Every Thing](https://arxiv.org/abs/1711.10370), [Data Distillation: Towards Omni-Supervised Learning](https://arxiv.org/abs/1712.04440), [DensePose: Dense Human Pose Estimation In The Wild](https://arxiv.org/abs/1802.00434), and [Group Normalization](https://arxiv.org/abs/1803.08494).
